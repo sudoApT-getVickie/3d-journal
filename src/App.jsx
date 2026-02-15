@@ -16,9 +16,9 @@ export default function App() {
       <Environment preset="city" />
       <ambientLight intensity={0.5} />
 
-      <PresentationControls speed={1.5} global zoom={0.5} polar={[-0.1, Math.PI / 4]}>
+      <PresentationControls speed={1.5} global zoom={1.3} polar={[-0.1, Math.PI / 4]}>
         <Center>
-          <Model scale={0.9} />
+          <Model scale={1.3} />
         </Center>
       </PresentationControls>
 
