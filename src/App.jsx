@@ -5,7 +5,7 @@ import * as THREE from 'three'
 import './App.css'
 
 function Model(props) {
-  const { scene } = useGLTF('/lamborghini.glb')
+  const { scene } = useGLTF('./lamborghini.glb')
   return <primitive object={scene} {...props} />
 }
 
